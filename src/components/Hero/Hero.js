@@ -8,13 +8,14 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        I'm Jeremy, a FullStack<br />
-        JavaScript Developer!
+        Welcome To<br />
+        FullStackGuerilla.com!
       </SectionTitle>
       <SectionText>
-        Below you will find a few FullStack JavaScript Applications I have built, deployed and currently manage. &nbsp;If you're looking for a Full-Stack Engineer for any of your project needs, please reach out!
+        My name is Jeremy and I am the Owner/Developer of fullstackguerilla.com and 
+        below you will find other FullStack JavaScript Applications I have built, deployed and currently manage as well as a little bit about me! &nbsp;If you're looking for a Full-Stack Engineer for any of your project needs, please reach out!
       </SectionText>
-      <Button onClick={() => window.location = "https://linkedin.com/in/jeremy-cabrera-4044a8179/"}>Learn More</Button>
+      <Button onClick={() => window.location = "https://linkedin.com/in/jeremy-cabrera-4044a8179/"}>Contact Me</Button>
     </LeftSection>
   </Section>
 );
