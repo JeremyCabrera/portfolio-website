@@ -48,7 +48,7 @@ const Timeline = () => {
      <SectionText>
        The purpose of fullstackguerilla.com is...
      </SectionText>
-     <CarouselContainer ref={carouselRef}>
+     <CarouselContainer ref={carouselRef} onScroll={handleScroll} >
       <>
         {TimeLineData.map((item, index) => (
           <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
@@ -88,6 +88,7 @@ const Timeline = () => {
 
        ))}
      </CarouselButtons>
+     <SectionDivider />
    </Section>
   );
 };
