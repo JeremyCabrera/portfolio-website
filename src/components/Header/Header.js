@@ -9,11 +9,13 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
+    
         <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
           <DiCssdeck size="3rem" /> <Span>FSG</Span>
           </a>
       </Link>
     </Div1>
+    
     <Div2>
       <li>
         <Link href="#projects">
