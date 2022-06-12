@@ -16,6 +16,15 @@ const Footer = () => {
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:jeremy@fullstackguerilla.com">jeremy@fullstackguerilla.com</LinkItem>
         </LinkColumn>
+        <br />
+        <LinkColumn>
+          <LinkTitle>Company</LinkTitle>
+          <LinkItem href="">FullStack Guerilla LLC</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Address</LinkTitle>
+          <LinkItem href="">Midlothian, VA 23112</LinkItem>
+        </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
