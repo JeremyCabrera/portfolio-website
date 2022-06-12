@@ -38,9 +38,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2004, text: 'Began career as Sales Representative for Anheuser-Busch', },
+  { year: 2009, text: 'Worked as a Store Manager at Starbucks Coffee Company', },
+  { year: 2012, text: 'Worked as a District Sales Manager for PepsiCo-FritoLay', },
+  { year: 2018, text: 'Began my career transition into the Technology industry', },
+  { year: 2022, text: 'Completed online certifications in Web Development', },
+  { year: 2022, text: 'Founded FullStackGuerilla.com as a Freelancer ', },
 ];
