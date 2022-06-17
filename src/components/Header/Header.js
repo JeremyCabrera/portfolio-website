@@ -3,14 +3,15 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
  const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/">
+      
+       <Link href="/">
         
+      
         <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
           
 
