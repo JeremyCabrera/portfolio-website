@@ -7,17 +7,13 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 
  const Header = () =>  (
   <Container>
-    <Div1>
-      
-       <Link href="/">
-        
-      
-        <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
-          
+  
 
-           <Span>FSG</Span>
-          </a>
-      </Link>
+    <Div1>
+       
+       <img src="/public/images/logo1.png" width="2px" height="3px" />
+         
+       
     </Div1>
 
     <Div2>
